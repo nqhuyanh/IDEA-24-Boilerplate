@@ -1,0 +1,28 @@
+/* This is your stylesheet */
+
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 3rem;
+  background: lightblue;
+}
+
+h1 {
+  font-size: 2.225rem;
+  font-weight: 600;
+}
