@@ -1,4 +1,4 @@
-/* This is your stylesheet */
+/* First import your reset and Google fonts */
 
 @import url(reset.css);
 
@@ -15,14 +15,101 @@ html {
   box-sizing: inherit;
 }
 
+/* Global and mobile styles start here */
 
 body {
   font-family: 'Inter', sans-serif;
-  padding: 3rem;
-  background: #EDF7FF;
 }
+
+/* Typography Styles */
 
 h1 {
   font-size: 2.225rem;
   font-weight: 600;
+}
+
+
+/* Section styles */
+
+.hero-section,
+.card-section,
+.information-card,
+.footer-section {
+  min-height: 100vh;
+  padding: 3rem;
+}
+
+.hero-section {
+  background: #EDF7FF;
+}
+
+.card-section {
+  background: #fff;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border: 2px solid black;
+  min-height: 80vh;
+  padding: 1rem;
+  width: 100%;
+}
+
+
+
+
+.information-card {}
+
+.footer-section {}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  body {
+    background: orangered;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    background: burlywood;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    background: aquamarine;
+  }
+
+  .cards-wrapper {
+    flex-direction: row;
+  }
+
+  .card {
+    width: 33.3333%;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    background: goldenrod;
+  }
+
+
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  body {
+    background: yellowgreen;
+  }
 }
