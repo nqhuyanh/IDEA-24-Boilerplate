@@ -29,10 +29,12 @@ h1 {
 }
 
 /* Image styles */
-.hero-illustration{
-  width: 50%;
-  background-color: lightblue;
+
+img {
+  max-width: 100%;
+  height: auto;
 }
+
 /* Section styles */
 
 .hero-section,
@@ -46,11 +48,21 @@ h1 {
 
 .hero-section {
   background: #EDF7FF;
-}
-.hero-text-wrapper {
   display: flex;
   flex-direction: column;
 }
+
+.hero-text-wrapper {
+  width: 100%;
+  background: lightgoldenrodyellow;
+}
+
+.hero-illustration {
+  width: 100%;
+  background-color: lightblue;
+}
+
+
 .card-section {
   background: #fff;
 }
@@ -95,9 +107,20 @@ h1 {
   body {
     background: aquamarine;
   }
-.hero-text-wrapper{
-  flex-direction: row;
-}
+
+  .hero-section {
+    flex-direction: row;
+  }
+
+  .hero-text-wrapper {
+    width: 50%;
+  }
+
+  .hero-illustration {
+    width: 50%;
+  }
+
+
   .cards-wrapper {
     flex-direction: row;
   }
