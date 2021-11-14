@@ -28,13 +28,18 @@ h1 {
   font-weight: 600;
 }
 
-
+/* Image styles */
+.hero-illustration{
+  width: 50%;
+  background-color: lightblue;
+}
 /* Section styles */
 
 .hero-section,
 .card-section,
 .information-card,
 .footer-section {
+  width: 100%;
   min-height: 100vh;
   padding: 3rem;
 }
@@ -42,7 +47,10 @@ h1 {
 .hero-section {
   background: #EDF7FF;
 }
-
+.hero-text-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 .card-section {
   background: #fff;
 }
@@ -87,7 +95,9 @@ h1 {
   body {
     background: aquamarine;
   }
-
+.hero-text-wrapper{
+  flex-direction: row;
+}
   .cards-wrapper {
     flex-direction: row;
   }
