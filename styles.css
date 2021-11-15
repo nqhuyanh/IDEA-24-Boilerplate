@@ -35,9 +35,9 @@ h3 {
   color: rgba(38, 92, 227, 1)
 }
 
-h4{
-font-size: 1rem;
-line-height: 30px;
+h4 {
+  font-size: 1rem;
+  line-height: 30px;
 
 }
 
@@ -91,20 +91,23 @@ img {
 .cards-wrapper {
   background-color: lightcoral;
   display: flex;
-  flex-flow: column wrap;
+  /* flex-flow: column wrap; */
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   width: 65%;
 }
 
 .card {
-  display: flex; /*Defines a flex container */
-  flex-direction: column; /*Defines placement direction of items within the container, along the main access*/
-  justify-content: center; /*Defines alignment of items within the container, along the main access*/
+  display: flex;
+  /*Defines a flex container */
+  flex-direction: column;
+  /*Defines placement direction of items within the container, along the main access*/
+  justify-content: center;
+  /*Defines alignment of items within the container, along the main access*/
   background: #EDF7FF;
   min-height: 50vh;
-  width: 30%;
+  width: 90%;
   border-radius: 44px;
   margin: 1rem;
   text-align: center;
@@ -120,7 +123,7 @@ img {
 
 .information-card {
   background: lightblue;
- min-height: 709px;
+  min-height: 709px;
 }
 
 .information-image-wrapper {
@@ -130,4 +133,48 @@ img {
 
 .footer-section {
   min-height: 710px;
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  body {
+    background: aquamarine;
+  }
+
+  .hero-section {
+    flex-direction: row;
+  }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  body {
+    background: goldenrod;
+  }
+
+  .cards-wrapper {
+    flex-direction: row;
+    width: 65%;
+  }
+
+  .card {
+    min-height: 50vh;
+    width: 30%;
+  }
+
+
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+  body {
+    background: yellowgreen;
+  }
+
 }
