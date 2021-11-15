@@ -35,9 +35,9 @@ h3 {
   color: rgba(38, 92, 227, 1)
 }
 
-h4{
-font-size: 1rem;
-line-height: 30px;
+h4 {
+  font-size: 1rem;
+  line-height: 30px;
 
 }
 
@@ -82,13 +82,16 @@ img {
   min-height: 840px;
 }
 
+.section-heading {
+  margin-bottom: 2rem;
+}
+
 .cards-wrapper {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  padding: 100px 88px 85px 88px;
 }
 
 article {
@@ -101,47 +104,31 @@ article {
 }
 
 .card-1 {
-  display: flex; /*Defines a flex container */
-  flex-direction: column; /*Defines placement direction of items within the container, along the main access*/
-  justify-content: center; /*Defines alignment of items within the container, along the main access*/
+  display: flex;
+  /*Defines a flex container */
+  flex-direction: column;
+  /*Defines placement direction of items within the container, along the main access*/
+  justify-content: center;
+  /*Defines alignment of items within the container, along the main access*/
 }
 
 .card-2 {
-  display: flex; /*Defines a flex container */
-  flex-direction: column; /*Defines placement direction of items within the container, along the main access*/
-  justify-content: center; /*Defines alignment of items within the container, along the main access*/
+  display: flex;
+  /*Defines a flex container */
+  flex-direction: column;
+  /*Defines placement direction of items within the container, along the main access*/
+  justify-content: center;
+  /*Defines alignment of items within the container, along the main access*/
 }
 
-<<<<<<< HEAD
 .card-3 {
-  display: flex; /*Defines a flex container */
-  flex-direction: column; /*Defines placement direction of items within the container, along the main access*/
-  justify-content: center; /*Defines alignment of items within the container, along the main access*/
+  display: flex;
+  /*Defines a flex container */
+  flex-direction: column;
+  /*Defines placement direction of items within the container, along the main access*/
+  justify-content: center;
+  /*Defines alignment of items within the container, along the main access*/
 }
-=======
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  body {
-    background: aquamarine;
-  }
-
-  .hero-section {
-    flex-direction: row;
-  }
-
-  .hero-text-wrapper {
-    width: 50%;
-  }
-
-  .hero-illustration {
-    width: 50%;
-  }
-
-
-  .cards-wrapper {
-    flex-direction: row;
-  }
->>>>>>> cde37c3d2a481b89446718477472697049820b35
 
 .icon {
   padding: 30px;
@@ -153,7 +140,7 @@ article {
 
 .information-card {
   background: lightblue;
- min-height: 709px;
+  min-height: 709px;
 }
 
 .information-image-wrapper {
