@@ -35,9 +35,9 @@ h3 {
   color: rgba(38, 92, 227, 1)
 }
 
-h4 {
-  font-size: 1rem;
-  line-height: 30px;
+h4{
+font-size: 1rem;
+line-height: 30px;
 
 }
 
@@ -57,7 +57,6 @@ img {
   width: 100%;
 }
 
-
 .hero-section {
   background: #EDF7FF;
   display: flex;
@@ -74,60 +73,41 @@ img {
   background-color: lightblue;
 }
 
-
 .card-section {
-  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: yellowgreen;
   text-align: center;
   padding-top: 180px;
-  min-height: 840px;
+  min-height: 100vh;
 }
 
 .section-heading {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .cards-wrapper {
+  background-color: lightcoral;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   flex-direction: row;
   align-items: center;
+  width: 65%;
 }
 
-article {
+.card {
+  display: flex; /*Defines a flex container */
+  flex-direction: column; /*Defines placement direction of items within the container, along the main access*/
+  justify-content: center; /*Defines alignment of items within the container, along the main access*/
   background: #EDF7FF;
-  min-height: 520px;
-  width: 340px;
+  min-height: 50vh;
+  width: 30%;
   border-radius: 44px;
-  margin: 20px;
+  margin: 1rem;
   text-align: center;
-}
-
-.card-1 {
-  display: flex;
-  /*Defines a flex container */
-  flex-direction: column;
-  /*Defines placement direction of items within the container, along the main access*/
-  justify-content: center;
-  /*Defines alignment of items within the container, along the main access*/
-}
-
-.card-2 {
-  display: flex;
-  /*Defines a flex container */
-  flex-direction: column;
-  /*Defines placement direction of items within the container, along the main access*/
-  justify-content: center;
-  /*Defines alignment of items within the container, along the main access*/
-}
-
-.card-3 {
-  display: flex;
-  /*Defines a flex container */
-  flex-direction: column;
-  /*Defines placement direction of items within the container, along the main access*/
-  justify-content: center;
-  /*Defines alignment of items within the container, along the main access*/
 }
 
 .icon {
@@ -140,7 +120,7 @@ article {
 
 .information-card {
   background: lightblue;
-  min-height: 709px;
+ min-height: 709px;
 }
 
 .information-image-wrapper {
