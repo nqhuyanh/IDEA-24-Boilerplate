@@ -80,12 +80,16 @@ img {
   flex-direction: column;
   background: yellowgreen;
   text-align: center;
-  padding-top: 180px;
-  min-height: 100vh;
+  padding: 2.5rem;
+  min-height: 75vh;
 }
 
 .section-heading {
+  background-color: yellow;
   margin-bottom: 4rem;
+  text-align: left;
+  width: 100%;
+  font-size: 4rem;
 }
 
 .cards-wrapper {
@@ -95,30 +99,47 @@ img {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 65%;
+  width: 100%;
 }
 
 .card {
   display: flex;
   /*Defines a flex container */
-  flex-direction: column;
+  flex-direction: row;
   /*Defines placement direction of items within the container, along the main access*/
   justify-content: center;
   /*Defines alignment of items within the container, along the main access*/
   background: #EDF7FF;
-  min-height: 50vh;
-  width: 90%;
-  border-radius: 44px;
+  align-items: center;
+  width: 100%;
+  border-radius: 3rem;
   margin: 1rem;
-  text-align: center;
+  padding: 2.5rem;
 }
 
-.icon {
-  padding: 30px;
+.icons {
+  padding: 1rem;
+  width: 35%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .content {
-  padding: 20px;
+  padding: 1rem;
+  width: 65%;
+}
+
+.card-heading {
+  margin-bottom: 1rem;
+  color: rgba(169, 0, 4, 1);
+  font-size: 3rem;
+  text-align: left;
+}
+
+.card-subheading {
+  text-align: left;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 .information-card {
@@ -164,6 +185,7 @@ img {
   .card {
     min-height: 50vh;
     width: 30%;
+    flex-direction: column;
   }
 
 
