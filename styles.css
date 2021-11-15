@@ -24,8 +24,21 @@ body {
 /* Typography Styles */
 
 h1 {
-  font-size: 2.225rem;
+  font-size: 3rem;
   font-weight: 600;
+  color: rgba(38, 92, 227, 1);
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgba(38, 92, 227, 1)
+}
+
+h4{
+font-size: 1rem;
+line-height: 30px;
+
 }
 
 /* Image styles */
@@ -40,9 +53,8 @@ h1 {
 .information-card,
 .footer-section {
   width: 100%;
-  min-height: 100vh;
-  padding: 3rem;
 }
+
 
 .hero-section {
   background: #EDF7FF;
@@ -53,73 +65,65 @@ h1 {
 }
 .card-section {
   background: #fff;
+  text-align: center;
+  padding-top: 180px;
+  min-height: 840px;
 }
 
 .cards-wrapper {
   display: flex;
-  flex-direction: column;
-}
-
-.card {
-  border: 2px solid black;
-  min-height: 80vh;
-  padding: 1rem;
-  width: 100%;
-}
-
-
-
-
-.information-card {}
-
-.footer-section {}
-
-
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  body {
-    background: orangered;
-  }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  body {
-    background: burlywood;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  body {
-    background: aquamarine;
-  }
-.hero-text-wrapper{
+  flex-flow: column wrap;
+  justify-content: center;
   flex-direction: row;
-}
-  .cards-wrapper {
-    flex-direction: row;
-  }
-
-  .card {
-    width: 33.3333%;
-  }
+  align-items: center;
+  padding: 100px 88px 85px 88px;
 }
 
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  body {
-    background: goldenrod;
-  }
-
-
-
+article {
+  background: #EDF7FF;
+  min-height: 520px;
+  width: 340px;
+  border-radius: 44px;
+  margin: 20px;
+  text-align: center;
 }
 
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-  body {
-    background: yellowgreen;
-  }
+.card-1 {
+  display: flex; /*Defines a flex container */
+  flex-direction: column; /*Defines placement direction of items within the container, along the main access*/
+  justify-content: center; /*Defines alignment of items within the container, along the main access*/
+}
+
+.card-2 {
+  display: flex; /*Defines a flex container */
+  flex-direction: column; /*Defines placement direction of items within the container, along the main access*/
+  justify-content: center; /*Defines alignment of items within the container, along the main access*/
+}
+
+.card-3 {
+  display: flex; /*Defines a flex container */
+  flex-direction: column; /*Defines placement direction of items within the container, along the main access*/
+  justify-content: center; /*Defines alignment of items within the container, along the main access*/
+}
+
+.icon {
+  padding: 30px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.information-card {
+  background: lightblue;
+ min-height: 709px;
+}
+
+.information-image-wrapper {
+  display: flex;
+  flex-wrap: warp;
+}
+
+.footer-section {
+  min-height: 710px;
 }
