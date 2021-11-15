@@ -42,10 +42,12 @@ line-height: 30px;
 }
 
 /* Image styles */
-.hero-illustration{
-  width: 50%;
-  background-color: lightblue;
+
+img {
+  max-width: 100%;
+  height: auto;
 }
+
 /* Section styles */
 
 .hero-section,
@@ -58,11 +60,21 @@ line-height: 30px;
 
 .hero-section {
   background: #EDF7FF;
-}
-.hero-text-wrapper {
   display: flex;
   flex-direction: column;
 }
+
+.hero-text-wrapper {
+  width: 100%;
+  background: lightgoldenrodyellow;
+}
+
+.hero-illustration {
+  width: 100%;
+  background-color: lightblue;
+}
+
+
 .card-section {
   background: #fff;
   text-align: center;
@@ -100,11 +112,36 @@ article {
   justify-content: center; /*Defines alignment of items within the container, along the main access*/
 }
 
+<<<<<<< HEAD
 .card-3 {
   display: flex; /*Defines a flex container */
   flex-direction: column; /*Defines placement direction of items within the container, along the main access*/
   justify-content: center; /*Defines alignment of items within the container, along the main access*/
 }
+=======
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    background: aquamarine;
+  }
+
+  .hero-section {
+    flex-direction: row;
+  }
+
+  .hero-text-wrapper {
+    width: 50%;
+  }
+
+  .hero-illustration {
+    width: 50%;
+  }
+
+
+  .cards-wrapper {
+    flex-direction: row;
+  }
+>>>>>>> cde37c3d2a481b89446718477472697049820b35
 
 .icon {
   padding: 30px;
