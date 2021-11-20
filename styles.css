@@ -187,6 +187,10 @@ img {
   /* background: lightgoldenrodyellow; */
 }
 
+.hero-logo {
+  margin-bottom: 1rem;
+}
+
 .hero-illustration {
   width: 100%;
   background-color: lightblue;
