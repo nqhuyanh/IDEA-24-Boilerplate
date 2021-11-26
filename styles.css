@@ -184,7 +184,7 @@ img {
 }
 
 .hero-logo {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .hero-illustration {
@@ -334,7 +334,6 @@ form {
 @media (min-width: 992px) {
 
   body {
-    background: aquamarine;
   }
 
   .hero-section {
