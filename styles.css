@@ -189,7 +189,6 @@ img {
 
 .hero-illustration {
   width: 100%;
-  background-color: lightblue;
   margin-right: -1.5rem;
 
 }
@@ -258,7 +257,7 @@ img {
 }
 
 .information-card {
-  background: lightblue;
+  background: #EDF7FF;
   display: flex;
   flex-direction: column;
 }
@@ -274,7 +273,7 @@ img {
 }
 
 .chat-bubble{
-  width: 30vw;
+  width: 100%;
 }
 
 .footer-input-wrapper {
@@ -360,6 +359,14 @@ form {
 
   body {
     background: #FFFFFF;
+  }
+
+  .hero-logo {
+   width: 12vw;
+  }
+
+  .hero-text-wrapper {
+    padding-right: 10rem;
   }
 
   .card-section {
@@ -478,8 +485,14 @@ margin-left: 6rem;
   font-size: 1.5rem;
 }
 
-.footer-icon {
+.chat-bubble{
+  width: 30vw;
 }
+
+p {
+  font-size: 1.5rem;
+}
+
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
 
