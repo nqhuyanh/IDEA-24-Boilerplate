@@ -64,9 +64,6 @@ p {
   line-height: 1.575;
 }
 
-
-
-
 .section-category {
   margin-bottom: 1.7rem;
   text-align: left;
@@ -79,6 +76,7 @@ p {
   line-height: 1.2;
   color: rgba(0, 0, 0, 1);
   font-weight: 700;
+  padding-right: 20rem;
   margin-bottom: 1rem;
   margin-right: 5rem;
 }
@@ -180,6 +178,7 @@ img {
 
 .hero-text-wrapper {
   width: 100%;
+
   /* background: lightgoldenrodyellow; */
 }
 
@@ -431,7 +430,6 @@ form {
 .information-image-wrapper {
   width: 55%;
   order: -1;
-  background-color: white;
 }
 
 .text-field-1 {
