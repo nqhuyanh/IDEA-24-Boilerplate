@@ -423,6 +423,10 @@ form {
       font-size: 3.5rem;
     }
 
+    .alternate-category-headline {
+      margin-top: 20rem;
+    }
+
     .stories-list {
       font-size: 1.875rem;
     }
