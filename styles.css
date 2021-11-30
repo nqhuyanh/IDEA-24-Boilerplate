@@ -103,7 +103,6 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: top;
-  object-fit: contain;
 }
 
 
@@ -270,7 +269,6 @@ img {
   padding-left: 4rem;
   width: 100%;
   padding: 1.5rem;
-  background: yellowgreen;
 }
 
 .footer-section {
@@ -354,6 +352,16 @@ form {
     margin-top: 10rem;
   }
 
+  .information-card {
+    min-height: 50vh;
+  }
+
+  .information-image {
+    height: 800px;
+    object-fit: cover;
+  }
+
+
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -410,7 +418,7 @@ form {
 
   .information-card {
     flex-direction: row;
-    min-height: 100vh;
+    min-height: 80vh;
     justify-content: center;
     align-items: flex-end;
     width: 100%;
@@ -423,11 +431,10 @@ form {
     margin-bottom: 3rem;
   }
 
-  .information-image {}
-
   .section-category {
     font-size: 2.5rem;
   }
+
 
   .alternate-heading {
     text-align: center;
